@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="GetStartedSpellChecker.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <TextBox x:Name="tb" AcceptsReturn="True" TextWrapping="Wrap" Text="Echte Hasen sind in ertser Linie Pflanzenfresser, die Gräser und Kräuter, aber auch Wurzen, Zweige und Baumrinde zu sich nehmen. Es gibt vereinzelte Berichte, wonach sie auch Fleisch verzehren."/>
+        <Button Content="Check" Click="Button_Click"  MaxWidth="100" Grid.Row="1" HorizontalAlignment="Center"/>
+        <Button x:Name="btn_DictLoad" Content="Load German Dictionary" Click="btn_DictLoad_Click" MaxWidth="150" Grid.Row="1" HorizontalAlignment="Left"/>
+    </Grid>
+    
+</UserControl>
