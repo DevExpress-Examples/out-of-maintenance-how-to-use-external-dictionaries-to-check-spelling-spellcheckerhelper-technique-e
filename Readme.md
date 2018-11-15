@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainPage.xaml](./CS/GetStartedSpellChecker/MainPage.xaml) (VB: [MainPage.xaml.vb](./VB/GetStartedSpellChecker/MainPage.xaml.vb))
+* [MainPage.xaml.cs](./CS/GetStartedSpellChecker/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/GetStartedSpellChecker/MainPage.xaml.vb))
+<!-- default file list end -->
 # How to use external dictionaries to check spelling (SpellCheckerHelper technique)
 
 
